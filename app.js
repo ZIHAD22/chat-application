@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 
 const app = express();
 dotenv.config();
-
 // databas connection
 mongoose
   .connect(process.env.MONGO_CONNECTION_STRING, {
